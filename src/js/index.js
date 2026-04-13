@@ -1,4 +1,15 @@
 import '../styles/main.scss';
+import { initializeApp } from "firebase/app";
+const firebaseConfig = {
+  apiKey: "AIzaSyD83AoC--G1ftD6MBPIh_DM87oPXZgAdew",
+  authDomain: "miguitas-e35fc.firebaseapp.com",
+  projectId: "miguitas-e35fc",
+  storageBucket: "miguitas-e35fc.firebasestorage.app",
+  messagingSenderId: "759824034614",
+  appId: "1:759824034614:web:d5561864095b17f4dba197"
+};
+
+const app = initializeApp(firebaseConfig);
 
 document.getElementById("contact-form").addEventListener("submit", function(e) {
   e.preventDefault();
