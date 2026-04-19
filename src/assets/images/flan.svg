@@ -1,0 +1,14 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#FFFBF0"/>
+  <ellipse cx="200" cy="228" rx="110" ry="20" fill="#C8820A" opacity="0.35"/>
+  <path d="M95 155 Q95 215 200 228 Q305 215 305 155 Q305 115 200 110 Q95 115 95 155Z" fill="#FFF0C0"/>
+  <path d="M100 152 Q100 210 200 222 Q300 210 300 152 Q300 118 200 114 Q100 118 100 152Z" fill="#FAEDC0"/>
+  <ellipse cx="200" cy="114" rx="100" ry="24" fill="#EF9F27"/>
+  <ellipse cx="200" cy="107" rx="95" ry="18" fill="#BA7517"/>
+  <path d="M130 108 Q162 88 200 106 Q238 88 270 108" stroke="#FAEEDA" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M108 138 Q200 128 292 138" stroke="#D4A843" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+  <path d="M98 158 Q200 148 302 158" stroke="#D4A843" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+  <path d="M100 175 Q200 166 300 175" stroke="#D4A843" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <ellipse cx="200" cy="105" rx="14" ry="8" fill="#FAEEDA" opacity="0.7"/>
+  <ellipse cx="200" cy="228" rx="100" ry="12" fill="#EF9F27" opacity="0.25"/>
+</svg>

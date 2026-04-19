@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Miguitas — Postres artesanales hechos con amor. Descubre nuestra colección de pasteles, tartas y dulces únicos." />
+    <meta name="keywords" content="postres, artesanales, pasteles, tartas, dulces, repostería" />
+    <meta name="author" content="Miguitas" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Miguitas — Postres Artesanales" />
+    <meta property="og:description" content="Postres artesanales hechos con amor y los mejores ingredientes." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://miguitas.com" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍮</text></svg>" />
+
+    <title>Miguitas — Postres Artesanales</title>
+  </head>
+  <body>
+
+    <!-- ========== HEADER / NAV ========== -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#inicio" class="nav__logo" style="height: 100%;">
+          <img src="./assets/images/logo.jpg" alt="Miguitas" class="nav__logo-icon" style="height: 100%;"/>
+          <span class="nav__logo-text">Miguitas</span>
+        </a>
+
+        <ul class="nav__menu" id="nav-menu">
+          <li class="nav__item">
+            <a href="#inicio" class="nav__link active">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#postres" class="nav__link">Postres</a>
+          </li>
+          <li class="nav__item">
+            <a href="#nosotros" class="nav__link">Nosotros</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacto" class="nav__link">Contacto</a>
+          </li>
+        </ul>
+
+        <button class="nav__toggle" id="nav-toggle" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- ========== MAIN ========== -->
+    <main>
+
+      <!-- HERO -->
+      <section class="hero" id="inicio">
+        <div class="hero__content container">
+          <p class="hero__eyebrow">Hecho a mano, con fruta real y mucho cariño</p>
+          <h1 class="hero__title">
+            El bocado perfecto <br />
+            <em>que no sabías que necesitabas</em>
+          </h1>
+          <p class="hero__subtitle">
+            Mini tartaletas artesanales rellenas de crema suave y coronadas con fruta fresca de temporada. Pequeñas en tamaño, enormes en sabor.
+          </p>
+          <div class="hero__actions">
+            <a href="#postres" class="btn btn--primary">Conoce nuestras tartaletas</a>
+            <a href="#nosotros" class="btn btn--ghost">Nuestra historia</a>
+          </div>
+        </div>
+        <div class="hero__decoration" aria-hidden="true"></div>
+      </section>
+
+      <!-- DESTACADOS -->
+      <section class="featured" id="postres">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Lo más querido</p>
+            <h2 class="section__title">Nuestros favoritos</h2>
+          </div>
+
+          <div class="cards-grid">
+            <!-- Card 1 -->
+            <article class="card">
+              <div class="card__img-wrapper">
+                <img
+                  src="./assets/images/tartaleta-fresa.jpeg"
+                  alt="Tartaleta de Fresa"
+                  class="card__img"
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                />
+                <span class="card__badge">Favorito</span>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">🍓 Tartaleta de Fresa</h3>
+                <p class="card__desc">Base crujiente de mantequilla, crema pastelera sedosa y fresas frescas cortadas en su punto exacto de dulzor. Una combinación que enamora desde el primer mordisco. <br><br>
+                  <b>Ingredientes destacados:</b> <br>
+                  ✦ Harina de trigo seleccionada · Mantequilla real · Huevo fresco · Azúcar glass · Crema pastelera artesanal · Fresas frescas de temporada · Toque de vainilla natural
+                </p>
+                <div class="card__footer">
+                  <span class="card__price">Q15.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="card">
+              <div class="card__img-wrapper">
+                <img
+                  src="./assets/images/tartaleta-melocoton.jpeg"
+                  alt="Tartaleta de Melocotón"
+                  class="card__img"
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                />
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">🍑 Tartaleta de Melocotón</h3>
+                <p class="card__desc">Nuestra favorita de temporada. La dulzura natural del melocotón maduro sobre una base dorada y crujiente que se deshace en tu boca. Fruta real, sabor real.<br><br>
+                  <b>Ingredientes destacados:</b> <br>
+                  ✦ Masa sablée artesanal · Mantequilla sin sal · Crema de queso suave · Melocotón en su punto de madurez · Brillo natural de fruta · Azúcar morena<br><br><br>
+                </p>
+                <div class="card__footer">
+                  <span class="card__price">Q15.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="card">
+              <div class="card__img-wrapper">
+                <img
+                  src="./assets/images/tartaleta-berries.jpeg"
+                  alt="Tartaleta de Berries"
+                  class="card__img"
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                />
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">🫐 Tartaleta de Berries</h3>
+                <p class="card__desc">La favorita de la temporada: arándanos con ese punto ácido y fresco que contrasta con una base dorada y crujiente. Hecha con fruta real, pensada para antojos que no se olvidan.</b> <br><br>
+                  <b>Ingredientes destacados:</b> <br>
+                  ✦ Masa sablée artesanal · Mantequilla sin sal · Crema de queso suave · Arandanos en su punto de madurez · Brillo natural de fruta · Azúcar morena<br><br>
+                </p>
+                <div class="card__footer">
+                  <span class="card__price">Q15.00</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 4 -->
+            <article class="card">
+              <div class="card__img-wrapper">
+                <img
+                  src="./assets/images/tartaleta-limon.jpeg"
+                  alt="Tartaleta de Limón"
+                  class="card__img"
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                />
+                <span class="card__badge card__badge--new">Nuevo</span>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">🍋 Tartaleta de Limón</h3>
+                <p class="card__desc">La favorita de la temporada: el golpe fresco y ácido del limón sobre una base dorada y crujiente. Intensa, ligera y hecha con fruta real.</b> <br><br>
+                  <b>Ingredientes destacados:</b> <br>
+                  ✦ Masa sablée artesanal · Mantequilla sin sal · Crema de queso suave · Limón en su punto de madurez · Brillo natural de fruta · Azúcar morena<br><br><br>
+                </p>
+                <div class="card__footer">
+                  <span class="card__price">Q15.00</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- NOSOTROS -->
+      <section class="about" id="nosotros">
+        <div class="container about__grid">
+          <div class="about__img-wrapper">
+            <img
+              src="./assets/images/nosotras.jpeg"
+              alt="Nuestra cocina artesanal"
+              class="about__img"
+              loading="lazy"
+              width="600"
+              height="500"
+            />
+          </div>
+          <div class="about__content">
+            <p class="section__eyebrow">Nuestra historia</p>
+            <h2 class="section__title">Pequeñas en tamaño. <br />Grandes en historia.</h2>
+            <p class="about__text">
+              Miguitas nació de esa tradición de hacer las cosas bien, sin atajos. Cada tartaleta es moldeada, horneada y decorada a mano, porque creemos que la repostería artesanal tiene un sabor que las máquinas simplemente no pueden replicar.
+              Usamos fruta fresca, sin conservadores ni colorantes artificiales. Lo que pruebas es exactamente lo que ves: ingredientes reales, receta honesta y el cuidado de quien las hace con orgullo.
+            </p>
+            <p class="about__text">
+              Una Miguita no es solo un postre. Es un pequeño momento de felicidad.
+            </p>
+            <a href="#contacto" class="btn btn--primary">Hacer un pedido</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section class="contact" id="contacto">
+        <div class="container">
+          <div class="section__header">
+            <p class="section__eyebrow">Escríbenos</p>
+            <h2 class="section__title">¿Tienes un antojo?</h2>
+          </div>
+
+          <form class="contact__form" id="contact-form" novalidate>
+            <div class="form__group">
+              <label for="name" class="form__label">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form__input"
+                placeholder="Tu nombre completo"
+                required
+                autocomplete="name"
+              />
+            </div>
+
+            <div class="form__group">
+              <label for="email" class="form__label">Correo electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form__input"
+                placeholder="tucorreo@ejemplo.com"
+                required
+                autocomplete="email"
+              />
+            </div>
+
+            <div class="form__group">
+              <label for="message" class="form__label">Mensaje</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form__input form__textarea"
+                placeholder="Escríbenos y lleva Miguitas a tu próximo evento, reunión o simplemente a tu tarde del domingo."
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">
+              Enviar mensaje
+            </button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img src="./assets/images/logo.jpg" alt="Miguitas" class="nav__logo-icon" style="height: 50px;"/>
+          <span class="nav__logo-text">Miguitas</span>
+        </div>
+        <p class="footer__copy">
+          &copy; <span id="year"></span> Miguitas. Todos los derechos reservados. <br>
+          “Tan ricas que no dejarás ni las miguitas.”
+        </p>
+        <div class="footer__links">
+          <a href="#inicio">Inicio</a>
+          <a href="#postres">Postres</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
